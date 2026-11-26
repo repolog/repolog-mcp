@@ -1,0 +1,15 @@
+{
+  "name": "repolog",
+  "description": "Official Repolog plugin: website audits and keyword research for Claude Code.",
+  "owner": {
+    "name": "Relevat Digital",
+    "url": "https://repolog.io"
+  },
+  "plugins": [
+    {
+      "name": "repolog",
+      "source": "./",
+      "description": "Website audits for SEO, performance, accessibility, security and AI readiness."
+    }
+  ]
+}

@@ -18,7 +18,16 @@ Transport: Streamable HTTP · Auth: `Authorization: Bearer rl_…`
 
 ## Setup
 
-### Claude Code
+### Claude Code (plugin)
+
+```bash
+claude plugin marketplace add repolog/repolog-mcp
+claude plugin install repolog@repolog
+```
+
+Claude Code asks for your API key when you install the plugin and stores it securely.
+
+### Claude Code (manual)
 
 ```bash
 claude mcp add --transport http repolog https://repolog.io/api/mcp \

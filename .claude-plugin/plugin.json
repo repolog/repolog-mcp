@@ -1,0 +1,25 @@
+{
+  "name": "repolog",
+  "displayName": "Repolog",
+  "version": "1.0.1",
+  "description": "Website audits for SEO, performance, accessibility, security and AI readiness, plus keyword research and backlinks, via the hosted Repolog MCP server.",
+  "author": { "name": "Relevat Digital", "url": "https://repolog.io" },
+  "homepage": "https://repolog.io",
+  "repository": "https://github.com/repolog/repolog-mcp",
+  "license": "MIT",
+  "keywords": ["seo", "accessibility", "performance", "security", "website-audit", "keyword-research", "mcp"],
+  "icon": "./logo.png",
+  "documentationUrl": "https://repolog.io/docs/integrations/mcp",
+  "supportUrl": "https://github.com/repolog/repolog-mcp/issues",
+  "privacyPolicyUrl": "https://repolog.io/privacy",
+  "termsOfServiceUrl": "https://repolog.io/terms",
+  "userConfig": {
+    "repolog_api_key": {
+      "type": "string",
+      "title": "Repolog API key",
+      "description": "Workspace API key (starts with rl_). Create one at repolog.io/dashboard/api-keys.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

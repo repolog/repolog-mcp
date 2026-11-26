@@ -76,9 +76,8 @@ claude mcp add --transport http repolog https://repolog.io/api/mcp \
       "command": "npx",
       "args": [
         "-y", "mcp-remote", "https://repolog.io/api/mcp",
-        "--header", "Authorization: Bearer ${REPOLOG_API_KEY}"
-      ],
-      "env": { "REPOLOG_API_KEY": "rl_YOUR_KEY" }
+        "--header", "Authorization: Bearer YOUR_API_KEY"
+      ]
     }
   }
 }

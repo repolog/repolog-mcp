@@ -3,8 +3,12 @@
   "name": "io.repolog/repolog",
   "title": "Repolog",
   "description": "Website audits (SEO, performance, accessibility, security, AI readiness) and keyword research.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://repolog.io",
+  "icons": [
+    { "src": "https://repolog.io/favicon.svg", "mimeType": "image/svg+xml" },
+    { "src": "https://repolog.io/icon-512.png", "mimeType": "image/png", "sizes": ["512x512"] }
+  ],
   "repository": {
     "url": "https://github.com/repolog/repolog-mcp",
     "source": "github"
@@ -16,7 +20,7 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer token with a Repolog API key (rl_...), created under Dashboard → API keys",
+          "description": "Bearer token with a Repolog API key (rl_...), created at repolog.io/dashboard/api-keys",
           "isRequired": true,
           "isSecret": true,
           "value": "Bearer {api_key}"

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.repolog/repolog",
+  "title": "Repolog",
+  "description": "Website audits (SEO, performance, accessibility, security, AI readiness) and keyword research.",
+  "version": "1.0.0",
+  "websiteUrl": "https://repolog.io",
+  "repository": {
+    "url": "https://github.com/repolog/repolog-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://repolog.io/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token with a Repolog API key (rl_...), created under Dashboard → API keys",
+          "isRequired": true,
+          "isSecret": true,
+          "value": "Bearer {api_key}"
+        }
+      ]
+    }
+  ]
+}
